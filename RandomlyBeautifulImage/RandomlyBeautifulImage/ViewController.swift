@@ -25,4 +25,10 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let vc = storyboard?.instantiateViewController(identifier: "Images") as? ImagesViewController else { return }
+        
+        vc.category = categories[indexPath.row]
+        present(vc, animated: true)
+    }
 }

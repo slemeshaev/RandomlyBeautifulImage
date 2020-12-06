@@ -13,6 +13,7 @@
 		661BFD662576CADF0036B50E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661BFD652576CADF0036B50E /* Assets.xcassets */; };
 		661BFD692576CADF0036B50E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661BFD672576CADF0036B50E /* LaunchScreen.storyboard */; };
 		665007252578CBBA009B5842 /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665007242578CBBA009B5842 /* ImagesViewController.swift */; };
+		66F4D5F1257D524C0051C0D4 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F4D5F0257D524C0051C0D4 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		661BFD682576CADF0036B50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		661BFD6A2576CADF0036B50E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		665007242578CBBA009B5842 /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
+		66F4D5F0257D524C0051C0D4 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				661BFD5E2576CADD0036B50E /* AppDelegate.swift */,
 				661BFD602576CADD0036B50E /* ViewController.swift */,
 				665007242578CBBA009B5842 /* ImagesViewController.swift */,
+				66F4D5F0257D524C0051C0D4 /* SwiftyJSON.swift */,
 				661BFD622576CADD0036B50E /* Main.storyboard */,
 				661BFD652576CADF0036B50E /* Assets.xcassets */,
 				661BFD672576CADF0036B50E /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				665007252578CBBA009B5842 /* ImagesViewController.swift in Sources */,
 				661BFD612576CADD0036B50E /* ViewController.swift in Sources */,
 				661BFD5F2576CADD0036B50E /* AppDelegate.swift in Sources */,
+				66F4D5F1257D524C0051C0D4 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
