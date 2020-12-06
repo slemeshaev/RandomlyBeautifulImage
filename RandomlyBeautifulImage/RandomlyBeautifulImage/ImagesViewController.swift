@@ -8,7 +8,10 @@
 import UIKit
 
 class ImagesViewController: UIViewController {
-
+    
+    @IBOutlet weak var spinner: UIActivityIndicatorView!
+    @IBOutlet weak var creditLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //
